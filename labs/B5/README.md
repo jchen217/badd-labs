@@ -50,6 +50,7 @@ contract BankRE {
   }
 
   function withdraw() public {
+    require(balances[msg.sender] > 0, "value is zero");
     (bool result, ) = msg.sender.call{value: balances[msg.sender]}("");
     balances[msg.sender] = 0;
   }
