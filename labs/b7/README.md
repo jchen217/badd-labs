@@ -16,7 +16,7 @@ Suppose the collateral ratio is 75%, and the price is 1 WETH = 1000 USDT. Alice 
 Borrow:
 - At the beginning, Alice has 1 WETH, 0 USDT
 - Alice calls `WETH.approve(pool, 1)`
-- Alice calls `LendingPool.deposit_borrow(1)`, LendingPool checks the current price and transfers USDT to Alice
+- Alice calls `LendingPool.deposit_borrow(1)`, the lending pool checks the current price, and transfers USDT to Alice
 - Alice has 0 WETH and 1 * 1000 * 75% = 750 USDT
 
 Repay:
