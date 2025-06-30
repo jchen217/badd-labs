@@ -36,7 +36,7 @@ struct Position {
 ```
 
 
-Exercise 2. Set price of the token
+Exercise 2. Set the price of the token
 ---
 
 To simulate real-world conditions, we add a price-setting mechanism to the contract in this step. For simplicity, we assume USDT is pegged to 1 USD, and the price of WETH (in USD) is represented by a variable called price in the contract.
@@ -45,7 +45,7 @@ Please implement a `setPrice(unit _price)` function to allow setting the price o
 
 `Hint`: Only the contract owner should be allowed to call this function.
 
-Exercise 3. implement the liquidation
+Exercise 3. Implement the liquidation
 ---
 
 Now, let’s simulate the liquidation process.
