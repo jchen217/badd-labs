@@ -22,7 +22,7 @@ Borrow:
 Repay:
 - Alice has 0 WETH, 750 USDT
 - Alice calls `USDT.approve(pool, 750)`
-- Alice calls `LendingPool.repay()`, LendingPool receives USDT and returns WETH to Alice
+- Alice calls `LendingPool.repay()`, LendingPool receives 750 USDT and returns 1 WETH to Alice
 - Alice has 1 WETH and 0 USDT
 
 Please design code to implement this process.
