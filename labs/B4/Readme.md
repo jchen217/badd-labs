@@ -17,7 +17,7 @@ Initially, Alice owns 10 `TokenX`, and the AMM pool holds 20 `TokenX` and 30 `To
 
 Observe how much `TokenX` Alice owns at the end.
 
-Exercise 2: Sandwich Attacks on Normal AMM pool
+Exercise 2: Sandwich Attacks on Normal AMM Pool
 ---
 Try the order Tx1-Tx2-Tx3 instead and observe how much `TokenX` Alice owns in the end.
 
